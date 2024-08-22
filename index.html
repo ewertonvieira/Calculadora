@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/index.css">
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container">
+        <form action="" method="get">
+            <input id="input-display" type="text" placeholder="0">
+
+            <div class="btn-numb">
+              <button data-valor="(">(</button>
+              <button data-valor=")" >)</button>
+              <button data-valor="%">%</button>
+              <button data-valor="+">+</button>
+            </div> 
+            <div class="btn-numb">
+              <button data-valor="1">1</button>
+              <button data-valor="2">2</button>
+              <button data-valor="3">3</button>
+              <button data-valor="/">/</button>
+            </div>
+
+            <div class="btn-numb">
+              <button data-valor="4">4</button>
+              <button data-valor="5">5</button>
+              <button data-valor="6">6</button>
+              <button data-valor="*">x</button>
+            </div>
+
+
+            <div class="btn-numb">
+              <button data-valor="7">7</button>
+              <button data-valor="8">8</button>
+              <button data-valor="9">9</button>
+              <button data-valor="-">-</button>
+            </div>
+            <div class="btn-numb">
+              <button data-valor="0">0</button>
+              <button>cls</button>
+              <button id="confirm">=</button>
+            </div>
+        </form>
+    </div>
+    <script src="script/soma.js"></script>
+  </body>
+</html>
